@@ -404,6 +404,10 @@ ul {
   position: absolute;
 }
 
+.modal .checkbox:focus + .icon {
+  border-color: #2196f3;
+}
+
 .modal .checkbox:checked + .icon {
   border-color: transparent;
   background-color: var(--brand-color);
