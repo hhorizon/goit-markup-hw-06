@@ -389,7 +389,7 @@ ul {
   color: var(--brand-color);
 }
 
-.modal .agree .icon {
+.modal .agree .icon-agree {
   display: inline-block;
   vertical-align: text-top;
   width: 16px;
@@ -404,11 +404,11 @@ ul {
   position: absolute;
 }
 
-.modal .checkbox:focus + .icon {
-  border-color: #2196f3;
+.modal .checkbox:focus + .icon-agree {
+  border-color: var(--brand-color);
 }
 
-.modal .checkbox:checked + .icon {
+.modal .checkbox:checked + .icon-agree {
   border-color: transparent;
   background-color: var(--brand-color);
   background-image: url("../images/icon-check.svg");
